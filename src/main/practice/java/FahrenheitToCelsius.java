@@ -1,0 +1,21 @@
+package main.practice.java;
+
+import java.util.*;
+
+public class FahrenheitToCelsius {
+
+	public static void main(String[] args) {
+		float temp;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter temperature in Fahrenheit : ");
+		int itemp = sc.nextInt();
+		
+		temp = (float)((itemp - 32)*5) / 9 ;
+		
+		System.out.println("Temperature in Celsius is : "+temp);
+		
+
+	}
+
+}
